@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is a rule that disallows declaring arrays that do not have a type. For example:
+This is a rule that disallows declaring arrays and objects that do not have a type. For example:
 
 ```ts
 // Bad
@@ -10,9 +10,15 @@ const myArray = [];
 
 // Good
 const myArray: string[] = [];
+
+// Bad
+const myMap = new Map();
+
+// Good
+const myMap = new Map<string, string>();
 ```
 
-This is useful because the `noImplicitAny` TypeScript compiler flag does not catch this pattern. Declaring arrays without the type can make code harder to read, especially if the array is instantiated far away from where it is mutated.
+This is useful because the `noImplicitAny` TypeScript compiler flag does not catch this pattern. Declaring objects without the type can make code harder to read, especially if the array/object is instantiated far away from where it is mutated.
 
 <br>
 

@@ -68,7 +68,7 @@ function noArrayAny(context) {
           if (typeArgument.intrinsicName === "any") {
             context.report({
               node,
-              message: "arrays must be declared with a type",
+              message: "arrays/objects must be declared with a type",
             });
           }
         }

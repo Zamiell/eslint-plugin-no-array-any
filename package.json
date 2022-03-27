@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-no-array-any",
   "version": "1.0.1",
-  "description": "A rule that prevents declaring arrays without a type.",
+  "description": "A rule that prevents declaring arrays and objects without a type.",
   "keywords": [
     "eslint",
     "eslintplugin"
