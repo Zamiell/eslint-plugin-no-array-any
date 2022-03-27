@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-no-array-any",
+  "version": "1.0.0",
+  "description": "A rule that prevents declaring arrays without a type.",
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zamiell/eslint-plugin-no-array-any.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Zamiell",
+  "main": "eslint-plugin-no-array-any.js",
+  "devDependencies": {
+    "prettier": "^2.6.1"
+  }
+}
